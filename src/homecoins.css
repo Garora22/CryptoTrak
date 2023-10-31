@@ -1,0 +1,43 @@
+.homepage-container {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.homepage-content {
+  display: flex;
+  align-items: left;
+}
+
+.homepage-content img {
+  width: 40px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.homepage-name {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+
+.homepage-pricechange {
+  font-size: 1em;
+  color: #666;
+}
+.homepage-price{
+    color: white;
+    text-align: right;
+}
+.homepage-rank{
+    text-align: left;
+}
+
+.homepage-container:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 10px #403f3f, 0 0 20px #403f3f, 0 0 30px #403f3f, 0 0 40px #403f3f;
+}

@@ -1,0 +1,14 @@
+.format-option {
+    cursor: pointer;
+    color: white;
+}
+
+.format-option.selected {
+    color: orange;
+}
+
+.format-selector{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
